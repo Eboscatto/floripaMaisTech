@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const setor_1 = "Azul";
+        const setor_2 = "Amarelo";
+        const setor_3 = "Branco";
+        const setor_4 = "Verde";
+       
+        var idade = prompt("Digite a idade: ");
+        
+        if(idade < 14)
+        {
+            alert("Você tem menos de 14 anos de idade,vair para o setor "+ setor_2);
+        }
+        else if(idade > 14 && idade < 18)
+        {
+            alert("Você tem mais de 14 e menos que 18 anos de idade, será direcionado para o setor "+ setor_1);
+        }
+        else if(idade > 18 && idade < 25)
+        {
+            alert("Você tem mais de 18 e menos que 25 anos de idade, será direcionado para o setor "+ setor_3);
+        }
+        else if(idade > 25)
+        {
+            alert("Você tem mais de 25 anos de idade, será direcionado para o setor "+ setor_4);
+        }
+        else
+        {
+            alert("Outro setor");
+        }
+
+
+
+
+
+
+    </script>
+</body>
+</html>

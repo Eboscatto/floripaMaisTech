@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Radar</title>
+</head>
+<body>
+  <script>
+    var velocidade = prompt("Informe a velocidade autal: ")
+    const limiteVelocidade = 80;    
+    velocidadeExcedida = velocidade - limiteVelocidade;
+
+    if (limiteVelocidade == velocidade)
+    { 
+      alert("Velocidade dentro do limite!");      
+    }
+    else
+    {
+      alert("Velocidade acima do permitido em " + velocidadeExcedida +" kh");
+    }
+  </script>
+  
+</body>
+</html>

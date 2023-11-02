@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        let troco = prompt("Digite o valor devido: "); 
+        const moeda1 = 1.00;
+        const moeda50 = 0.50;
+        const moeda25 = 0.25;
+        const moeda10 = 0.10;
+        const moeda05 = 0.05;
+        const moeda01 = 0.01; 
+        var moeda = 0;   
+               
+        while(troco >= moeda1)
+        {
+            troco -= moeda1;
+            moeda++;            
+        }  
+
+        while(troco >=moeda50)
+        {
+            troco -= moeda50
+            moeda++;
+        }
+        alert("O numero de moedas é " + moeda);
+        while(troco >= moeda25)
+        {
+            troco -= moeda25;
+            moeda++;
+        }
+        while(troco >= moeda10)
+        {
+            troco -= moeda10;
+            moeda++;
+        }
+        while(troco >= moeda05)
+        {
+            troco -= moeda05
+            moeda++;
+        }
+        while(troco >= moeda01)
+        {
+            troco -= moeda01;
+            moeda++;
+        }
+        alert("O numero de moedas é " + moeda);
+               
+        
+    </script>
+</body>
+</html>

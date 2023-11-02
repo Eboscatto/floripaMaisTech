@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Curso JavaScript Progressivo</title>
+   Digite a senha:
+   <input id="password" type="password">
+   <button onclick="login()">Entrar</button> <br />
+
+   <script type="text/javascript">
+    var senha='80';
+    function login(){
+     var tentativa = document.getElementById("password").value;
+
+     if (tentativa == senha)
+      alert("Dentro do limite...");
+     else 
+      alert("Fora do limite!");
+    }
+    
+   </script>
+
+ </head>
+</html>

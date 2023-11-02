@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora Simples</h1>
+    <p>Projeto para o desenvovimento de um progarama de calculadora básica</p>
+    <ol>
+        <li>Executar o programa "Calculadora"</li>
+        <li>Digitar o primeiro valor desejado</li>
+        <li>Digiar o segundo valor desejado</li>
+        <li>clicar no tipo de operação que deseja realizar. Ex.:multiplicação, divisão, etc.</li>
+        <li>Clicar no botão "Processar" para obter o resultado</li>
+        <li>Clicar no botão "Limpar" para limpar os campos</li>        
+    </ol>
+    <form>
+        <label for="valor_1">Valor_1:</label>
+        <input id="valor_1" name="valor_1" placeholder="Digite o 1º valor" type="number"/><br />
+        <label for="valor_2">Valor_2:</label>
+        <input id="valor_2" name="valor_2" placeholder="Digite o 2º valor" type="number"/><br />   
+        
+        <label for="operacao">Escolha a operação</label>
+
+        <select name="operacao" id="operacao">
+            <option value="operacao_1">Adição</option>
+            <option value="operacao_2">Subtração</option>
+            <option value="operacao_3">Multiplicação</option>
+            <option value="operacao_4">Divisão</option>
+            <option valur="operacao_5">Exponenciação</option>
+        </select>
+        <button>Executar</button>
+        <p>"O resultado da operação é :"</p>
+    </form>
+
+    <script>
+
+    </script>
+
+</body>
+</html>
