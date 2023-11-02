@@ -9,23 +9,34 @@
     <script>
         /*
         // Número (PAR) ou (IMPAR)
-        let numero = Number(prompt("Digite um número: "))
+        let numero = Number(prompt("Digite um número: "));
         if(numero % 2 == 0)
         {
             alert("O número é Par!");            
         }
         else
         {
-            alert("O número é Impar!")
+            alert("O número é Impar!");
         }
-        */
-       // Calcular média
-       let nota1 = Number(prompt("Digite a 1ª nota: "))
-       let nota2 = Number(prompt("Digite a 2ª nota: "))
-       let nota3 = Number(prompt("Digite a 3ª nota: "))
-       let nota4 = Number(prompt("Digite a 4ª nota: "))
+
+        // Calcular média
+       let nomeAluno = prompt("Informe o nome do aluno: ");
+       let nota1 = Number(prompt("Digite a 1ª nota: "));
+       let nota2 = Number(prompt("Digite a 2ª nota: "));
+       let nota3 = Number(prompt("Digite a 3ª nota: "));
+       let nota4 = Number(prompt("Digite a 4ª nota: "));
        let media = (nota1 + nota2 + nota3 + nota4) / 4;
-       alert(`A média do aluno é ${media}`);        
+       alert(`A média do aluno ${nomeAluno} é ${media}`);
+          
+        */        
+
+        //Calcular o volume de uma caixa retangular
+        alert("Informe os valores solicitados para realizar a operação");
+        let comprimento = Number(prompt("D4igite o comprimento: "));
+        let largura = Number(prompt("Digite a largura: "));
+        let altura = Number(prompt("Digite a altura: "));
+        let voloume = comprimento * altura * largura;
+        alert(`O volume da caixa é: ${voloume}`);           
     </script>    
 </body>
 </html>
