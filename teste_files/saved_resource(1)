@@ -1,0 +1,50 @@
+
+var ftGUID_4863004="57776280F18FBE";
+var ftConfID_4863004="0";
+var ftParams_4863004="ftOBA=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fgoogleads.g.doubleclick.net%2Fpagead%2Fhtml%2Fr20231024%2Fr20110914%2Fzrt_lookup.html%3Ffsb%3D1%23RS-3-%26adk%3D1812271801%26client%3Dca-pub-3925537054052519%26fa%3D1%26ifi%3D11%26uci%3Da!b%26btvi%3D5%26xpc%3DEvObzqU7Bm%26p%3Dhttps%253A%2F%2Fwww.javascriptprogressivo.net&us_privacy=${US_PRIVACY}&cachebuster=385691.5722524446&ft_dv=%5B%25ft_dv%25%5D";
+var ftKeyword_4863004="";
+var ftCustom_4863004="";
+var ftSection_4863004="";
+var ftSegment_4863004="";
+var ftSegmentList_4863004=[];
+var ftRuleMatch_4863004="0";
+var ftTimestamp_4863004="1698353816";
+var ftGeoC2_4863004="br";
+var ftGeoState_4863004="sc";
+var ftGeoCity_4863004="bombinhas";
+var ftISP_4863004="unetvale servicos e equipamentos ltda";
+var ftSpeed_4863004="broadband";
+var ftConnType_4863004="wifi";
+var ftDMA_4863004="76018";
+var ftLong_4863004="-48.49";
+var ftLat_4863004="-27.15";
+var ftPostal_4863004="88215-959";
+var ftTimeZone_4863004="-300";
+var ftMobileCarrier_4863004="";
+var ftImp4863004 = {};
+ftImp4863004.privacy = "x";
+ftImp4863004.guidAge = "-1";
+ftImp4863004.impID = "AB5B355E-F44F-3F3B-A82B-0454670A1CF6";
+ftImp4863004.duid = "FT:57776280F18FBE";
+
+ftImp4863004.ft_tpplid = "";
+ftImp4863004.ft_c = {};
+ftImp4863004.gdpr = "";
+ftImp4863004.gdpr_consent = "";
+ftImp4863004.gdpr_pd = "";
+ftImp4863004.oob_consent = "";
+ftImp4863004.gdprStoredConsent = "";
+ftImp4863004.us_privacy = "!!US_PRIVACY!";
+ftImp4863004.gpc = "";
+
+ftImp4863004.jsAppend = "1";
+(function(){
+    var tag = document.getElementById('ft_servedby_4863004') || (function(s){
+    	return s[s.length-1];
+    }(document.getElementsByTagName('script'))),
+           js = document.createElement('script');
+    js.src =
+"https://cdn.flashtalking.com/xre/486/4863004/4373367/js/j-4863004-4373367.js";
+    js.id = "ftscript_m4863004";
+    tag.parentNode.insertBefore(js, tag);
+}());
