@@ -1,7 +1,11 @@
-h1 {
-    color:black;
+#titulo{
+    color:green;
 }
 
-h2{
-    color: black;
-    }
+#subtitulo{
+    color: red;
+}
+
+.texto{
+    color:blue;
+}
