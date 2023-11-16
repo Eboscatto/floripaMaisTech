@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+</head>
+<body>
+    <h3>Trabalhando com Arrays</h3>
+
+    <script>
+        // Atividades arrays
+       let numeros = [];
+       for(let i = 0; i < 5; i++)
+       {
+        let num = Number(prompt("Digite um número: "));
+        numeros.push(num); // Adiciona elemento no final da lista
+       }
+       console.log(numeros);
+       
+       console.log(numeros.sort()); // Ordena os elementos em ordem crescente
+
+       console.log(numeros.pop()); // Remove o último elemento da lista
+
+       console.log(numeros.unshift(6)); // Adiciona um elemento no início da fila
+                                    // e desloca todos os outros para direita
+    </script>
+    
+</body>
+</html>

@@ -7,20 +7,18 @@
 </head>
 <body>
     <h1>Aula 07</h1>
-    <button></button>
+    <div id="divmouse"
+    onmouseout="quandoMouseOut()"
+    onmouseenter="quandoMouseEnter()" style="width: 200px; background: red;"
+    >Div do mouse enter</div>
+    <button onclick="quandoClicar()">Clique aqui</button>
 
 
     <script>
 
         /*
 
-       // Funções do window 
-       // window.alert("Exempo de alert!"); // retorna undefined
-       // let resultado = window.prompt("Digite seu nome: "); // Retorna uma string
-       // let resultado = window.confirm("Você está gostando do curso?");
-       // console.log(resultado);
-
-       // Exemplo de função
+       // Exemplo de função 
        function soma(a, b)
        {
         return a + b;
@@ -79,12 +77,24 @@
 
        // Eventos:
        // Exemplos
-       function quandoClica()
+       function quandoClicar()
        {
-        
+        alert("Você clicou");
        }      
+
+       let divdomouse = window.document.getElementById("divmouse");
        
-    </script>
-    
+       function quandoMouseEnter()
+       {
+        divdomouse.innerText = "mouse entro!";
+        divdomouse.style.background = "green";
+       }
+
+       function quandoMouseOut()
+       {
+        divdomouse.innerText = "mouse saiu!";
+        divdomouse.style.background = "red";
+       }
+    </script>    
 </body>
 </html>
