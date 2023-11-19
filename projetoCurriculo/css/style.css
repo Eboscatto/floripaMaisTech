@@ -61,8 +61,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;   
-    padding: 0 4em;
-    background-image: url("./recursos/imagens/imagem-home02.jpg");
+    padding: 0 4em;    
+    background-image: url("recursos/imagens/imagem-home02.jpg");
     background-position: center;  
     background-size: cover;
     background-repeat: no-repeat;    
