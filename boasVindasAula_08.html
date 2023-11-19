@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boas vindas</title>
+</head>
+<body>
+    <h1 id="titulo">Seja bem vindo!</h1>
+    <button onclick="alterarTitulo()">Alterar</button>
+    <script>
+        function alterarTitulo()
+        {
+            const h1 = document.getElementById("titulo");
+
+        const nome = prompt("Qual seu nome? ");
+        h1.innerText = `Seja bem-vindo, ${nome}!`;
+        }
+    </script>
+    
+</body>
+</html>

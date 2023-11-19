@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo</title>
+</head>
+<body>
+    <h2>Manipulação do DOM:</h2>
+    <p>
+        DOM - Doument Object Model.
+    </p>
+    <p> 
+        Cada elemento de um documento HTML tem uma representação dentro do DOM. 
+    </p>
+    <h3>Formas de selecionar elementos:</h3>
+    <p>
+        Por Id:       document.getElementById("nomeId");        
+    </p>
+    <p>
+        Por Class:    document.getElementsByClassName("nomeDaClasse");                    
+    </p>
+    <p>
+        Por selector: document.querySelector(".nomeDaClasse");
+    </p>
+    <p>
+        Usa-se # para pegar pelo ID: document.querySelector("#nomeDoId");
+    </p>
+    <p>
+        OBS.: O querySelector pega qualquer elemento HTML.
+    </p>
+    <h3>Alterando propriedades:</h3>
+    <p>
+        Após selecionar um elemento podemos alterar suas propriedades:
+    </p>
+    <ul>
+        <li>Adidionar estilos:
+            <p>elemento.sytle.color="blue";</p>
+        </li>
+        <li>Adicionar/remover texto:
+            <p>elemento.innerText="olá, mundo!";</p>
+        </li>
+        <li>Alterar o HTML:
+            <P>elemento.innerHTML="<p>Olá!</p>>" </P>
+        </li>
+    </ul>
+    <h3>Adicionar e remover classes:</h3>
+    <ul>
+        <li>Adicionar classe:
+            <p>const div = document.getElementById('div-pai')</p>
+            <p>div.classList.add("classe")</p>
+        </li>
+        <li>Remover classe:
+            <p>const div = document.getElementById('div-pai')</p>
+            <p>div.classList.remove("classe")</p>
+        </li>
+    </ul>
+    <h3>Elementos com propriedades especiais como os inputs</h3>
+    <p>const meuInput = document.getElementById("id-do-input")</p>
+    <p>console.log(meuInput.value); //mostra o valor digitado no input</p>
+    <p>meuInput.value = "Texto inserido no input!";</p>
+
+
+
+    
+</body>
+</html>

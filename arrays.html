@@ -17,13 +17,16 @@
         numeros.push(num); // Adiciona elemento no final da lista
        }
        console.log(numeros);
-       
-       console.log(numeros.sort()); // Ordena os elementos em ordem crescente
 
-       console.log(numeros.pop()); // Remove o último elemento da lista
+       numeros.sort(); // Ordena os elementos em ordem crescente       
+       console.log(numeros); 
 
-       console.log(numeros.unshift(6)); // Adiciona um elemento no início da fila
-                                    // e desloca todos os outros para direita
+       numeros.pop(); // Remove o último elemento da lista
+       console.log(numeros); 
+
+       numeros.unshift(6);// Adiciona um elemento no início da fila
+                          // e desloca todos os outros para direita
+       console.log(numeros);        
     </script>
     
 </body>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 08</title>
+</head>
+<body>
+    <h1 id="titulo">Aula sobre DOM</h1>
+    <h3>Introdução ao DOM</h3>    
+    <p class="paragrafo">Com o DOM é possível mudar o estilo, texto e o HTML</p> 
+       
+    <div id="div_teste">Teste</div>
+    <button onclick="alterarCor()">Alterar cor</button>
+
+    <p id="paragrafo_2">Vou alterar esse testo usando o DOM!</p>
+    <button onclick="alterarTexto()">Alterar</button>
+    
+    <script>
+        const variavel_h1 = document.getElementById("titulo"); // Pega um elemento pelo titulo
+        console.log(variavel_h1)
+
+        const variavel_p = document.getElementsByClassName("paragrafo"); // Pega um elemento pela classe
+        console.log(variavel_p)
+
+        const variavelDiv_teste = document.querySelector("#div_teste"); // Pega um elemento pelo id
+        console.log(variavelDiv_teste)
+
+        const paragrafo_2 = document.getElementById("paragrafo_2");
+        console.log(paragrafo_2)
+
+        function alterarTexto()
+        {
+            paragrafo_2.innerText = "Exmplo de alteração de texto via DOM!"
+        }
+
+        function alterarCor()
+        {
+            variavelDiv_teste.style.background = "red"
+
+        }
+    </script>
+
+    
+</body>
+</html>
