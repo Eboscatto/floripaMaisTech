@@ -1,3 +1,20 @@
+:root {
+    --laranja: #fca311;
+    --azul: #14213d;
+    --branco: #ffffff;
+    --cor: #d4a373;
+    --cinza: #e5e5e5;
+}
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: nome; 
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
 body{   
     background-color : #232F3E;
     color : white;
@@ -5,6 +22,7 @@ body{
     margin: 50px auto 50px;
     font-family: Arial, Helvetica, sans-serif;  
 }
+
 .formulario {
     height: 80vh;
     display: flex;
@@ -15,4 +33,12 @@ body{
 
 .opcoes {
     margin: 50px 0;
+}
+
+.footer a {
+    width: 100vw;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    color: var(--azul)
 }

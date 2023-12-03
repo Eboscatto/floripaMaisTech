@@ -6,17 +6,20 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>calculadora</title>    
 </head>
-<body>     
+<body>    
+    <h2>Projeto calculadora</h2> 
     <form class="formulario">
         <h1>Calculadora</h1>  
-        <label for="numero1">Primeiro valor:</label>
+        <label for="numero1">Digite o primeiro valor</label>
         <input type="number" id="numero1" name="numero1" 
         placeholder="Digite o primeiro valor" 
     />
-        <label for="numero2">Segundo valor:</label>
+        <label for="numero2">Digite o segundo valor</label>
         <input type="number" id="numero2" name="numero2" 
-        placeholder="Digite o segundo valor" 
+        placeholder="Digite o segundo valor"        
     />
+    <label for="calcular">Selecionar operação</label>
+    
     <select name="opcoes" id="opcoes">
         <option disabled>Selecione a opçao</option>
         <option value="adicionar">Adição</option>
@@ -26,9 +29,13 @@
         <option value="expoente">Exponenciação</option>
         <option value="resto">Resto</option>
     </select>
+    <label for="Realizar calculo">Realizar cálculo</label>
     <button type="submit">Calcular</button>
     <div id="resultado-calculo"></div>    
     </form>    
     <script src="js/script.js"></script>
+    <footer class="footer">
+        Desenvolvido por: Everaldo Boscatto - 2023        
+    </footer>
 </body>
 </html>

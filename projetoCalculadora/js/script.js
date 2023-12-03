@@ -34,32 +34,32 @@ function calcular(){
 
 function adicionar(){
     let resultado = Number(numero1.value.replace(",", ".")) + Number(numero2.value.replace(",", "."))
-    resultadoCalculo.innerText = `O resultado da ADIÇÃO é ${resultado}`
+    resultadoCalculo.innerText = `O resultado da ADIÇÃO é: ${resultado}`
 }
 
 function subtrair(){
     let resultado = Number(numero1.value.replace(",", ".")) - Number(numero2.value.replace(",", "."))
-    resultadoCalculo.innerText = `O resultado da SUBTRAÇÃO é ${resultado}`
+    resultadoCalculo.innerText = `O resultado da SUBTRAÇÃO é: ${resultado}`
 
 }
 
 function dividir(){
     let resultado = Number(numero1.value.replace(",", ".")) / Number(numero2.value.replace(",", "."))
-    resultadoCalculo.innerText = `O resultado da DIVISÃO é ${resultado}`
+    resultadoCalculo.innerText = `O resultado da DIVISÃO é: ${resultado}`
 
 }
 
 function multiplicar(){
     let resultado = Number(numero1.value.replace(",", ".")) * Number(numero2.value.replace(",", "."))
-    resultadoCalculo.innerText = `O resultado da MULTIPLICAÇÃO é ${resultado}`
+    resultadoCalculo.innerText = `O resultado da MULTIPLICAÇÃO é: ${resultado}`
 }
 
 function expoente(){
     let resultado = Number(numero1.value.replace(",", ".")) ** Number(numero2.value.replace(",", "."))
-    resultadoCalculo.innerText = `O resultado da EXPONENCIAÇÃO é ${resultado}`
+    resultadoCalculo.innerText = `O resultado da EXPONENCIAÇÃO é: ${resultado}`
 }
 
 function resto(){
     let resultado = Number(numero1.value.replace(",", ".")) % Number(numero2.value.replace(",", "."))
-    resultadoCalculo.innerText = `O RESTO da divisão é ${resultado}`
+    resultadoCalculo.innerText = `O RESTO da divisão é: ${resultado}`
 }

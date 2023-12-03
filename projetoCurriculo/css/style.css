@@ -173,7 +173,7 @@
     width: 100vw;
     background-color: var(--laranja);    
     padding: 1em 4em;
-    display: flex;
+    display: flex;    
     justify-content: space-between;
 }
 
